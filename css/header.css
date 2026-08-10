@@ -23,6 +23,10 @@ header {
   margin-top: 24px;
 }
 
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+} /* ~ é um seletor de irmandade (?) */
+
 nav {
   display: none;
 }
