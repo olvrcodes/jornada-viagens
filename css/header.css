@@ -1,13 +1,28 @@
 header {
   /*background-color: black; */
-  width: 100%;
-  height: 138px;
+  /*width: 100%;
+  height: 138px; */
   background-color: var(--background-tertiary-color);
+  display: flex; /*display flex já "divide" o layout */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 38px 48px;
 }
 
 .logo {
   display: inline-block;
   width: 68px;
   height: 64px;
-  margin: 37px 0px 0px 48px;
+  /*margin: 38px 0px 0px 48px;*/
 } /* .class definite atribute somente para a classe em específico */
+
+/* o atributo diplay flex já configura as margens todas... se for o caso, leia a documentação! */
+
+.navigation-menu {
+  margin-top: 24px;
+}
+
+nav {
+  display: none;
+}
