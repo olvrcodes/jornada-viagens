@@ -60,3 +60,7 @@ utilizamos comando :root {
     -> tablets: 768px;
     -> laptops: 1024px;
     -> desktops grandes: 1440px; */
+
+body {
+  font-family: "Montserrat";
+}
