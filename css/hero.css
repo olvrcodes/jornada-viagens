@@ -8,6 +8,16 @@
   background-size: cover; /* delimita a imagem para o tamanho delimitado na div */
 }
 
+/* estilização do texto */
+.hero h2 {
+  padding: 88px 24px;
+  margin: 0px;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
 /* agora para tablet: */
 @media screen and (min-width: 768px) {
   .hero-img {
@@ -17,6 +27,15 @@
     background-image: url(../img/hero-tablet.jpg);
     background-repeat: no-repeat; /*assim a imagem não fica repetindo quando aumento o tamanho */
     background-size: cover; /* delimita a imagem para o tamanho delimitado na div */
+  }
+
+  .hero h2 {
+    padding: 88px 60px;
+    margin: 0px;
+    font-weight: var(--text-weight);
+    font-size: 32px;
+    text-align: center;
+    line-height: 1.5;
   }
 }
 
@@ -29,5 +48,14 @@
     background-image: url(../img/hero-desktop.jpg);
     background-repeat: no-repeat; /*assim a imagem não fica repetindo quando aumento o tamanho */
     background-size: cover; /* delimita a imagem para o tamanho delimitado na div */
+  }
+
+  .hero h2 {
+    padding: 88px 120px;
+    margin: 0px;
+    font-weight: var(--text-weight);
+    font-size: 32px;
+    text-align: center;
+    line-height: 1.5;
   }
 }
