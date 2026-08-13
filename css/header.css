@@ -18,6 +18,14 @@ header {
   /*margin: 38px 0px 0px 48px;*/
 } /* .class definite atribute somente para a classe em específico */
 
+/* configuração do logo de acordo com o tipo de dispositivo: lembre-se Mobile First... */
+.logo-mobile {
+  display: block;
+}
+
+.logo-desktop {
+  display: none;
+}
 /* o atributo diplay flex já configura as margens todas... se for o caso, leia a documentação! */
 
 .navigation-menu {
@@ -77,5 +85,30 @@ nav {
   }
   .navigation-menu li {
     margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* body {
+    background-color: aqua;
+  } -> teste layout responsivo para desktop */
+  header {
+    padding: 38px 120px;
+  }
+
+  .logo {
+    width: 260px 64px;
+  }
+
+  .logo-mobile {
+    display: none;
+  }
+
+  .logo-desktop {
+    display: block;
+  }
+
+  .navigation-menu a:hover {
+    color: var(--button-secondary-color);
   }
 }
