@@ -71,10 +71,15 @@
      neste momento, iremos criar a section.hero -->
     <section class="hero">
       <!--1º vem a imagem: -->
-      <img
+      <!--<img
         src="./img/hero-mobile.jpg"
         alt="imagem de uma paisagem na natureza"
-      />
+      /> 
+      utilizar o img direto daria um bug de resolução no celular (imagem ficaria maior) e na versão
+      desktop o texto escaparia; como recomendação, utilzizaremos a imagem no "background"
+      
+      para tanto, criaremos uma nova <div> que receberá a imagem: -->
+      <div class="hero-img"></div>
       <!--depois vem o texto-->
       <p>
         Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino

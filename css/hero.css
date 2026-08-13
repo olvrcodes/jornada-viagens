@@ -1,0 +1,33 @@
+/* mobile first: */
+.hero-img {
+  height: 400px;
+  width: 100%;
+  /* definição da imagem de fundo: */
+  background-image: url(../img/hero-mobile.jpg);
+  background-repeat: no-repeat; /*assim a imagem não fica repetindo quando aumento o tamanho */
+  background-size: cover; /* delimita a imagem para o tamanho delimitado na div */
+}
+
+/* agora para tablet: */
+@media screen and (min-width: 768px) {
+  .hero-img {
+    height: 620px;
+    width: 100%;
+    /* definição da imagem de fundo: */
+    background-image: url(../img/hero-tablet.jpg);
+    background-repeat: no-repeat; /*assim a imagem não fica repetindo quando aumento o tamanho */
+    background-size: cover; /* delimita a imagem para o tamanho delimitado na div */
+  }
+}
+
+/* agora para desktop: */
+@media screen and (min-width: 1024px) {
+  .hero-img {
+    height: 620px;
+    width: 100%;
+    /* definição da imagem de fundo: */
+    background-image: url(../img/hero-desktop.jpg);
+    background-repeat: no-repeat; /*assim a imagem não fica repetindo quando aumento o tamanho */
+    background-size: cover; /* delimita a imagem para o tamanho delimitado na div */
+  }
+}
