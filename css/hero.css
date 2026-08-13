@@ -9,7 +9,7 @@
 }
 
 /* estilização do texto */
-.hero h2 {
+.hero p {
   padding: 88px 24px;
   margin: 0px;
   font-weight: var(--text-weight);
@@ -29,7 +29,7 @@
     background-size: cover; /* delimita a imagem para o tamanho delimitado na div */
   }
 
-  .hero h2 {
+  .hero p {
     padding: 88px 60px;
     margin: 0px;
     font-weight: var(--text-weight);
@@ -50,7 +50,7 @@
     background-size: cover; /* delimita a imagem para o tamanho delimitado na div */
   }
 
-  .hero h2 {
+  .hero p {
     padding: 88px 120px;
     margin: 0px;
     font-weight: var(--text-weight);
