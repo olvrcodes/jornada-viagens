@@ -13,6 +13,9 @@
   display: block;
   /*background-color: black; */
   position: static;
+  padding: 0;
+  margin-bottom: 24px; /* como estamos fazendo vários butões, o ideal é que 
+  ele seja o mais genérico possível */
 }
 
 .card header p {
